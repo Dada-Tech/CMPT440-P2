@@ -60,16 +60,6 @@ Template.boardingProcess.onRendered(function() {
     var data = ParsePassengerData(rawPassengerData);
     passengerWalkingSpeedScale();
 
-    /*TODO:
-
-    next:
-    run experiment to skip, use while(), same condition for auto stop
-
-    bugs:
-    should need to filter out settled passengers before adjacent check
-    settled passenger HUD
-    */
-
 //set up zoom
     zoom_var = 1;
     zoomed = ()=>{
